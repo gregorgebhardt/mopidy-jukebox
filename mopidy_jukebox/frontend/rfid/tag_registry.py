@@ -3,6 +3,9 @@ import os
 from pathlib import Path
 import logging
 
+
+DATABASE = 'tag_registry.db'
+
 logger = logging.getLogger("mopidy_jukebox.RFID")
 
 
